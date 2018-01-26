@@ -1,0 +1,182 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-image: url(../images/jp_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+  }
+h1{
+    margin: 5px 0px;
+    color: #fff;
+    font-size: 5em;
+    font-family: 'Passion One', cursive;  
+    text-align: center; 
+    text-shadow: 5px 5px rgb(0, 153, 204);
+}
+.col-md-2{
+    border: 2px solid #696969;
+    height: 70px;
+    box-shadow: 3px 3px 5px 6px #ccc; 
+    margin: 5px;
+    text-shadow: 2px 2px rgb(0, 153, 204);
+}
+.head-col{
+    border: 2px solid #696969;
+    height: 100px;
+    color: #fff;
+    box-shadow: 3px 3px 5px 6px #ccc; 
+    margin: auto;
+    margin-bottom: 20px;    
+    text-shadow: 2px 2px rgb(0, 153, 204);
+    background-color: #0d47a1;
+    font-size: 300%;
+    text-align: center;
+    line-height: 70px;
+    font-family: 'Passion One', cursive;
+    position: relative;
+    left: 50px;
+	
+}
+.head-col img{
+    height: 90px;
+    margin: 0 auto;
+	
+}
+
+button{
+    height: 100%;
+    width: 100%;
+}
+
+.hundred-1, .hundred-2,.hundred-3,
+.hundred-4,.hundred-5,.hundred-6, .two-hundred-1,.two-hundred-2,
+.two-hundred-2,.two-hundred-3,.two-hundred-4,
+.two-hundred-5,.two-hundred-6,.three-hundred-1, .three-hundred-2,  
+.three-hundred-3,  .three-hundred-4,  .three-hundred-5,.three-hundred-6,
+.four-hundred-1,.four-hundred-2,.four-hundred-3,
+.four-hundred-4,.four-hundred-5,.four-hundred-6,.five-hundred-1,
+.five-hundred-2,.five-hundred-3,.five-hundred-4,
+.five-hundred-5,.five-hundred-6,.six-hundred-1,
+.six-hundred-2,.six-hundred-3,.six-hundred-4,
+.six-hundred-5{
+    background-color: rgb(0,128,128);
+    font-size: 300%;
+    text-align: center;
+    line-height: 70px;
+    font-family: 'Passion One', cursive;
+    position: relative;
+    left: 50px;
+	margin:auto;
+}
+
+.col-md-2:hover{
+    background: linear-gradient(-90deg, rgb(0, 102, 255),rgb(0, 153, 204), rgb(230, 249, 255)); 
+    transform: rotateX(360deg);
+    color: rgb(255,0,0);
+    border: 1px solid rgb(255,0,0);
+}
+
+.final-question{
+    font-size: 3em;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Passion One', cursive;
+    border: 1px solid #696969;
+    height: 50px;
+    line-height: 80px;
+    box-shadow: 3px 3px 5px 6px #ccc; 
+    margin: 5px;
+    position: relative;
+    left: 60px;
+}
+.score-board{
+    font-size: 3em;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Passion One', cursive;
+    line-height: 80px;
+    /* box-shadow: 3px 3px 5px 6px #ccc;  */
+    position: relative;
+    left: 27    0px;
+    /* border: 1px solid #696969; */
+    margin: 5px;
+}
+#wrong, #countWrong{
+    font-size: 3em;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Passion One', cursive;
+    line-height: 80px;
+    color: #fff;
+    /* box-shadow: 3px 3px 5px 6px #ccc;  */
+    position: relative;
+    left: 27    0px;
+    /* border: 1px solid #696969; */
+    margin: 5px;
+}
+#correct, #countCorrect{
+    font-size: 3em;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Passion One', cursive;
+    line-height: 80px;
+    color: #fff;
+    /* box-shadow: 3px 3px 5px 6px #ccc;  */
+    position: relative;
+    left: 27    0px;
+    /* border: 1px solid #696969; */
+    margin: 5px;
+}
+#playerName, #score, #dollar{
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px rgb(0, 153, 204);
+}
+.btn-success{
+    width: 150px;
+    height: 50px;
+    font-size: 1.5em;
+}
+.java{
+    width: 60px;
+}
+.name {
+    color: #fff;    
+    padding-top: 10px;
+    border: none;
+}
+
+@media only screen and (max-width: 414px) {
+  .col-md-2{
+      display: inline-block;
+      flex-wrap: wrap;
+      font-size: 1.3em;
+      width: 50px;
+      height: 35px;
+      position: relative;
+      left: 27px;
+     
+  }
+  .head-col{
+        height: 65px;
+  }
+ .head-col img{
+        height: 50px;
+        margin: 0    auto;
+  }
+  h1{
+      font-size: 3em;
+  }
+ #footer{
+    display: inline-block;
+    flex-wrap: wrap;
+     font-size: .7em;
+
+ }
+ .btn-success{
+     width: 50%;
+ }
+}
